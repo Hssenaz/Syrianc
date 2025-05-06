@@ -1,0 +1,26 @@
+---
+title: About Syrian Coin
+description: Introduction to the mission, purpose, and goals behind the Syrian Coin project.
+---
+
+## What is Syrian Coin (SYR)?
+
+Syrian Coin (SYR) is a decentralized cryptocurrency built on the Ethereum blockchain (ERC-20 standard). It was created to provide financial tools and opportunities to Syrian communities worldwide — supporting growth, transparency, and borderless value exchange.
+
+## Our Mission
+
+To empower individuals and organizations connected to Syria with secure, transparent, and accessible financial solutions through blockchain technology.
+
+## Why Syrian Coin?
+- **Transparency**: All transactions are verifiable on-chain
+- **Accessibility**: Anyone with a wallet can own, send, and receive SYR
+- **Purpose-driven**: A portion of supply supports charitable efforts
+
+## Smart Contract
+SYR is a fixed-supply token with no minting allowed after deployment. The token contract follows the standard ERC-20 specification for maximum compatibility with wallets and exchanges.
+
+**Etherscan Token Link**: [View on Etherscan](https://etherscan.io/token/0xa7e21c9482DCc37af5f45715521209007372c828)
+
+---
+
+Feel free to explore our [Tokenomics](/docs/tokenomics/) and [Roadmap](/docs/roadmap/) to see what’s next.
