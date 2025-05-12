@@ -8,7 +8,7 @@ hero:
     file: ../../assets/coin.webp
   actions:
     - text: Learn About SYR
-      link: /docs/about-syrian-coin.mdx
+      link: /docs/about-syrian-coin
       icon: right-arrow
     - text: View Token on Etherscan
       link: https://etherscan.io/token/0xa7e21c9482dcc37af5f45715521209007372c828
@@ -22,16 +22,16 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Explore the Syrian Coin Project
 
 <CardGrid stagger>
-  <Card title="What is Syrian Coin?" icon="star">
+  <Card title="What is Syrian Coin?" icon="star" href="/docs/about-syrian-coin">
     Learn how SYR brings decentralized finance to support Syria's economic future.
   </Card>
-  <Card title="Tokenomics" icon="book">
+  <Card title="Tokenomics" icon="book" href="/docs/tokenomics">
     Review the transparent allocation of SYR, including liquidity, charity, and staking.
   </Card>
   <Card title="Get Involved" icon="plus">
     Discover how to contribute, provide liquidity, or stake SYR for rewards.
   </Card>
-  <Card title="Roadmap" icon="right-arrow">
+  <Card title="Roadmap" icon="right-arrow" href="/docs/roadmap">
     Explore upcoming milestones and future utility of the Syrian Coin ecosystem.
   </Card>
 </CardGrid>
