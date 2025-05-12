@@ -8,22 +8,17 @@ export default defineConfig({
 		starlight({
 			title: 'My Docs',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-sidebar: [
-  {
-    label: 'About',
-    items: [
-      { label: 'What is Syrian Coin?', slug: 'about-syrian-coin' }
-    ]
-  },
-  {
-    label: 'Guides',
-    items: [
-      { label: 'Example Guide', slug: 'guides/example' },
-    ]
-  },
-  {
-    label: 'Reference',
-    autogenerate: { directory: 'reference' },
+			sidebar: [
+				{
+					label: 'About',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'What is Syrian Coin?', slug: 'about-syrian-coin' },
+					],
+				},
+				{
+					label: 'Reference',
+					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
