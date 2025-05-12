@@ -1,8 +1,10 @@
+// astro.config.mjs or astro.config.ts
+
 sidebar: [
   {
     label: 'About',
     items: [
-      { label: 'What is Syrian Coin?', slug: 'about-syrian-coin' },
+      { label: 'What is Syrian Coin?', slug: 'about-syrian-coin' }, // <- Add this
     ],
   },
   {
@@ -15,4 +17,4 @@ sidebar: [
     label: 'Reference',
     autogenerate: { directory: 'reference' },
   },
-],
+]
