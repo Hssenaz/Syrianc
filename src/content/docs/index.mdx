@@ -37,11 +37,13 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
     <a href="/roadmap">Explore upcoming milestones and future utility of the Syrian Coin ecosystem.</a>
   </Card>
 </CardGrid>
+
+<!-- ✅ Buy SYR Button -->
 <div style={{
   marginTop: '2rem',
   textAlign: 'center'
 }}>
-  <a href="https://app.uniswap.org/#/swap?inputCurrency=0xa7e21c9482dcc37af5f45715521209007372c828" target="_blank" rel="noopener noreferrer">
+  <a href="https://app.uniswap.org/#/swap?outputCurrency=0xa7e21c9482dcc37af5f45715521209007372c828&chain=ethereum" target="_blank" rel="noopener noreferrer">
     <button style={{
       backgroundColor: '#1e1e1e',
       color: '#fff',
@@ -51,7 +53,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
       fontSize: '16px',
       cursor: 'pointer'
     }}>
-      Sell SYR on Uniswap
+      Buy SYR on Uniswap
     </button>
   </a>
 </div>
