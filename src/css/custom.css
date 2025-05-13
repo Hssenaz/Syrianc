@@ -1,5 +1,7 @@
-@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 :root {
-  --ifm-font-family-base: 'Inter', sans-serif;
-  --ifm-heading-font-family: 'Inter', sans-serif;
+  --sl-font: 'Inter', sans-serif;
+  --sl-text-font: 'Inter', sans-serif;
+  --sl-heading-font: 'Inter', sans-serif;
 }
