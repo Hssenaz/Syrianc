@@ -5,7 +5,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Syrian Coin',
-      customCss: ['./src/css/custom.css'], // ✅ Correct path
+      customCss: ['./src/css/custom.css'],
       social: [
         {
           icon: 'github',
@@ -14,6 +14,10 @@ export default defineConfig({
         },
       ],
       sidebar: [
+        {
+          label: 'Buy SYR',
+          link: '/how-to-buy-syr',
+        },
         {
           label: 'About',
           items: [
