@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Syrian Coin',
-			customCss: ['src/styles/custom.css'], // ✅ fixed
+			customCss: ['src/css/custom.css'], // ✅ fixed
 			social: [
 				{
 					icon: 'github',
