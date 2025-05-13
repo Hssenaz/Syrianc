@@ -1,5 +1,5 @@
 ---
-title: What is Syrian Coin?
+Support the future of Syria on-chain
 description: Learn how SYR brings decentralized finance to support Syria’s economic future.
 ---
 
