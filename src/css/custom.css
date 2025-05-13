@@ -3,13 +3,3 @@
   --sl-text-font: 'Times New Roman', Times, serif;
   --sl-heading-font: 'Times New Roman', Times, serif;
 }
-
-/* Optional: improve appearance */
-body {
-  line-height: 1.6;
-  font-size: 16px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
