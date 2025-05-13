@@ -1,0 +1,5 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+:root {
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-heading-font-family: 'Inter', sans-serif;
+}
